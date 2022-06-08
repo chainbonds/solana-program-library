@@ -14,7 +14,8 @@ echo "Program ID: $PROGRAM_ID";
 echo "Owner: $OWNER";
 echo "Market Owner $MARKET_OWNER";
 
-solana config set --url https://api.devnet.solana.com;
+solana config set --url https://api.devnet.solana.com
+;
 
 solana airdrop 10 $MARKET_OWNER;
 SOURCE=`target/debug/spl-token --config $SOLANA_CONFIG wrap 10 2>&1 | head -n1 | awk '{print $NF}'`;

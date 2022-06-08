@@ -5,6 +5,7 @@
 ```shell
 solana config set --url https://api.devnet.solana.com
 
+
 # Pyth product: SOL/USD
 solana account 3Mnn2fX6rQyUsyELYms1sBJyChWofzSNRoqYzvgMVz5E --output-file 3Mnn2fX6rQyUsyELYms1sBJyChWofzSNRoqYzvgMVz5E.bin
 # Pyth price: SOL/USD
